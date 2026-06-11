@@ -1,0 +1,35 @@
+.stickly{
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+    display: inline-block;
+    position: fixed;
+}
+.container{
+    position: relative;
+}
+.black-box{
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+.gray-box{
+    position: absolute;
+    z-index: 3;
+    background-color: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+.green-box{
+    position: absolute;
+    z-index: 2;
+    background-color: lightgreen;
+    left: 270px;
+    top: -15px;
+    height: 100px;
+    width: 15%;
+}
